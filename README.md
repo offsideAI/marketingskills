@@ -8,7 +8,7 @@ New to the terminal and coding agents? Check out the companion guide [Coding for
 
 **Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](#contributing).
 
-Run into a problem or have a question? [Open an issue](https://github.com/coreyhaines31/marketingskills/issues) — we're happy to help.
+Run into a problem or have a question? [Open an issue](https://github.com/offsideai/marketingskills/issues) — we're happy to help.
 
 ## What are Skills?
 
@@ -96,13 +96,13 @@ Use [npx skills](https://github.com/vercel-labs/skills) to install skills direct
 
 ```bash
 # Install all skills
-npx skills add coreyhaines31/marketingskills
+npx skills add offsideai/marketingskills
 
 # Install specific skills
-npx skills add coreyhaines31/marketingskills --skill page-cro copywriting
+npx skills add offsideai/marketingskills --skill page-cro copywriting
 
 # List available skills
-npx skills add coreyhaines31/marketingskills --list
+npx skills add offsideai/marketingskills --list
 ```
 
 This automatically installs to your `.agents/skills/` directory (and symlinks into `.claude/skills/` for Claude Code compatibility).
@@ -113,7 +113,7 @@ Install via Claude Code's built-in plugin system:
 
 ```bash
 # Add the marketplace
-/plugin marketplace add coreyhaines31/marketingskills
+/plugin marketplace add offsideai/marketingskills
 
 # Install all marketing skills
 /plugin install marketing-skills
@@ -124,7 +124,7 @@ Install via Claude Code's built-in plugin system:
 Clone the entire repo and copy the skills folder:
 
 ```bash
-git clone https://github.com/coreyhaines31/marketingskills.git
+git clone https://github.com/offsideai/marketingskills.git
 cp -r marketingskills/skills/* .agents/skills/
 ```
 
@@ -133,7 +133,7 @@ cp -r marketingskills/skills/* .agents/skills/
 Add as a submodule for easy updates:
 
 ```bash
-git submodule add https://github.com/coreyhaines31/marketingskills.git .agents/marketingskills
+git submodule add https://github.com/offsideai/marketingskills.git .agents/marketingskills
 ```
 
 Then reference skills from `.agents/marketingskills/skills/`.
@@ -150,13 +150,13 @@ Use [SkillKit](https://github.com/rohitg00/skillkit) to install skills across mu
 
 ```bash
 # Install all skills
-npx skillkit install coreyhaines31/marketingskills
+npx skillkit install offsideai/marketingskills
 
 # Install specific skills
-npx skillkit install coreyhaines31/marketingskills --skill page-cro copywriting
+npx skillkit install offsideai/marketingskills --skill page-cro copywriting
 
 # List available skills
-npx skillkit install coreyhaines31/marketingskills --list
+npx skillkit install offsideai/marketingskills --list
 ```
 
 ## Upgrading from v1.0
